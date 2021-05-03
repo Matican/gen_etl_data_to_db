@@ -10,7 +10,7 @@ import requests
 import psycopg2
 
 # Edit the number at end of the URL to specify number of rows 
-with requests.get("http://127.0.0.1:5000/tickle_my_belly/1000", stream=True) as r:
+with requests.get("http://127.0.0.1:5000/spin_the_yarn/1000", stream=True) as r:
 
     conn = psycopg2.connect(dbname="stream_test", user="postgres", password=".")
     cur = conn.cursor()
