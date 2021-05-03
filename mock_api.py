@@ -7,7 +7,7 @@ APP = Flask(__name__)
 
 # To specify rowcount, add the [/tickle_my_belly/<int:rowcount>] to your localhost.
 
-@APP.route("/tickle_my_belly/<int:rowcount>", methods=["GET"])
+@APP.route("/spin_the_yarn/<int:rowcount>", methods=["GET"])
 def get_data(rowcount):
 
     def f():
