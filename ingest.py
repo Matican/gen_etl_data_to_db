@@ -4,7 +4,7 @@ import psycopg2
 # Edit the number at end of the URL to specify number of rows 
 with requests.get("http://127.0.0.1:5000/spin_the_yarn/1000", stream=True) as r:
 
-    conn = psycopg2.connect(dbname="stream_test", user="postgres", password=".")
+    conn = psycopg2.connect(dbname="<database>", user=<"username">, password=<"password>)
     cur = conn.cursor()
     sql = "INSERT INTO transactions (userid, userkey, amount) VALUES  (%s, %s, %s)"
 
