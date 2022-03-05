@@ -1,4 +1,4 @@
-## mock_api.py is an API which generates random data in tuples, and ingest.py streams the data into PostgreSQL database using psycopg2. 
+## mock_api.py is an API which generates random data in tuples, and ingest.py streams the data into PostgreSQL database. 
 
 # User instruction
 - Create postgres database like [stream_test] below
