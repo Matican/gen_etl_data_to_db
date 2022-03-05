@@ -1,11 +1,3 @@
-# User instruction:
-# ---Create postgres database like [stream_test] below
-# ---Create postgres table like [transaction] below 
-# ---Edit line 7, optionally.
-# ---First, run mock_api.  
-# ---Then, run this app.
-
-
 import requests
 import psycopg2
 
